@@ -27,7 +27,7 @@
       - celebrities
       - tags
       - sentiments
-      - language
+      - languages
       - key phrases
     </description>
     <summary>Provides a sample implementation of a ContentPage that shows how to use Microsoft ComputerVision (Cognitive Services API) to analyse an image.</summary>
