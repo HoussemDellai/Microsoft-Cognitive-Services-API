@@ -1,0 +1,107 @@
+﻿{
+  "language": "en",
+  "textAngle": 0.0,
+  "orientation": "Up",
+  "regions": [
+    {
+      "boundingBox": "58,75,575,515",
+      "lines": [
+        {
+          "boundingBox": "65,75,301,59",
+          "words": [
+            {
+              "boundingBox": "65,75,301,59",
+              "text": "Microsoft"
+            }
+          ]
+        },
+        {
+          "boundingBox": "62,166,571,69",
+          "words": [
+            {
+              "boundingBox": "62,166,292,69",
+              "text": "Cognitive"
+            },
+            {
+              "boundingBox": "377,166,256,55",
+              "text": "Services"
+            }
+          ]
+        },
+        {
+          "boundingBox": "62,253,547,56",
+          "words": [
+            {
+              "boundingBox": "62,253,48,56",
+              "text": "&"
+            },
+            {
+              "boundingBox": "131,254,259,55",
+              "text": "Xamarin"
+            },
+            {
+              "boundingBox": "419,255,190,54",
+              "text": "Forms"
+            }
+          ]
+        },
+        {
+          "boundingBox": "59,382,190,21",
+          "words": [
+            {
+              "boundingBox": "59,383,112,20",
+              "text": "Houssem"
+            },
+            {
+              "boundingBox": "181,382,68,21",
+              "text": "Dellai"
+            }
+          ]
+        },
+        {
+          "boundingBox": "58,427,371,21",
+          "words": [
+            {
+              "boundingBox": "58,428,114,20",
+              "text": "#ASP.NET"
+            },
+            {
+              "boundingBox": "179,428,114,20",
+              "text": "#Xamarin"
+            },
+            {
+              "boundingBox": "302,427,127,21",
+              "text": "#Windows"
+            }
+          ]
+        },
+        {
+          "boundingBox": "58,459,364,21",
+          "words": [
+            {
+              "boundingBox": "58,459,165,21",
+              "text": "#VisualStudio"
+            },
+            {
+              "boundingBox": "230,461,84,19",
+              "text": "#Azure"
+            },
+            {
+              "boundingBox": "322,459,100,21",
+              "text": "#Mobile"
+            }
+          ]
+        },
+        {
+          "boundingBox": "58,569,293,21",
+          "words": [
+            {
+              "boundingBox": "58,569,293,21",
+              "text": "www.houssemdellai.net"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

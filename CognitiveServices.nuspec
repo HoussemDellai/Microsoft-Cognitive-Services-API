@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="2.8.3">
+    <id>Plugin.ComputerVision</id>
+    <version>3.0.6</version>
+    <title>Microsoft Computer Vision (Cognitive Services) Plugin for Xamarin and Windows</title>
+    <authors>Houssem Dellai</authors>
+    <owners>Houssem Dellai</owners>
+    <licenseUrl>
+      https://github.com/HoussemDellai/Microsoft-Cognitive-Services
+    </licenseUrl>
+    <projectUrl>
+      https://github.com/HoussemDellai/Microsoft-Cognitive-Services
+    </projectUrl>
+    <iconUrl>
+      https://github.com/HoussemDellai/Microsoft-Cognitive-Services/blob/master/items/ComputerVision.PNG?raw=true
+    </iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Provides a sample implementation of a ContentPage that shows how to use Microsoft ComputerVision (Cognitive Services API) to analyse an image to detect:
+      - text
+      - faces
+      - emotion
+      - ages
+      - adult content
+      - racy content
+      - celebrities
+      - tags
+      - sentiments
+      - language
+    </description>
+    <summary>Provides a sample implementation of a ContentPage that shows how to use Microsoft ComputerVision (Cognitive Services API) to analyse an image.</summary>
+    <tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios, Microsoft Cognitive Services, Cognitive Services, ComputerVisionApplication, faces, api, computer vision, computerVision, sentiments, language</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.3" />
+      <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      <dependency id="Xam.Plugin.Media" version="2.3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!--Core-->
+    <!--Models-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\ImageResult.cs"
+          target="content\Models\ImageResult.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\OcrResult.cs"
+          target="content\Models\OcrResult.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\EmotionResult.cs"
+          target="content\Models\EmotionResult.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\KeyPhrasesResult.cs"
+          target="content\Models\KeyPhrasesResult.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\SentimentResult.cs"
+          target="content\Models\SentimentResult.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Models\LanguageResult.cs"
+          target="content\Models\LanguageResult.cs" />
+    <!--Converters-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Converters\ListOfStringToOneStringConverter.cs"
+          target="content\Converters\ListOfStringToOneStringConverter.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Converters\ListOfLinesToOneStringConverter.cs"
+          target="content\Converters\ListOfLinesToOneStringConverter.cs" />
+    <!--Services-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Services\ComputerVisionService.cs"
+          target="content\Services\ComputerVisionService.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Services\EmotionService.cs"
+          target="content\Services\EmotionService.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Services\TextAnalyticsService.cs"
+         target="content\Services\TextAnalyticsService.cs" />
+    <!--ViewModels-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\ViewModels\ComputerVisionViewModel.cs"
+          target="content\ViewModels\ComputerVisionViewModel.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\ViewModels\TextAnalyticsViewModel.cs"
+         target="content\ViewModels\TextAnalyticsViewModel.cs" />
+    <!--Pages-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Views\ComputerVisionPage.cs"
+          target="content\Views\ComputerVisionPage.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Views\EmotionPage.cs"
+          target="content\Views\EmotionPage.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Views\OcrPage.cs"
+          target="content\Views\OcrPage.cs" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\Views\TextAnalyticsPage.cs"
+         target="content\Views\TextAnalyticsPage.cs" />
+    <!--Sample Data-->
+    <file src="ComputerVisionApplication\ComputerVisionApplication\SampleData\Face.json"
+          target="content\SampleData\Face.json" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\SampleData\ComputerVision-text.json"
+          target="content\SampleData\ComputerVision-text.json" />
+    <file src="ComputerVisionApplication\ComputerVisionApplication\SampleData\ComputerVision-emotion.json"
+          target="content\SampleData\ComputerVision-emotion.json" />
+    <!--ReadMe-->
+    <file src="readme.txt"
+          target="readme.txt" />
+  </files>
+</package>
