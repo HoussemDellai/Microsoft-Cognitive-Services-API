@@ -28,6 +28,7 @@
       - tags
       - sentiments
       - language
+      - key phrases
     </description>
     <summary>Provides a sample implementation of a ContentPage that shows how to use Microsoft ComputerVision (Cognitive Services API) to analyse an image.</summary>
     <tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios, Microsoft Cognitive Services, Cognitive Services, ComputerVisionApplication, faces, api, computer vision, computerVision, sentiments, language</tags>
